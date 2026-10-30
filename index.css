@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pada header */
+.header {
+    background-color: darkslateblue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: "vanilla";
+    width: 100%;
+    margin: 0;
+}
+
+/*style topnav*/
+
+.topnav{
+    overflow: hidden;
+    background-color: rgb(115, 194, 240);
+}
+
+.topnav a{
+    float: left;
+    display:block;
+    color:rgb(7, 37, 9);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "vanilla";
+}
+
+.topnav a:hover{
+    background-color: rgb(7, 37, 97);
+    color: rgb(115, 194, 240);
+}
+
+.footer{
+    background-color: darkslateblue;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-family: "vanilla";
+}
+
+/*Style List*/
+
+/*ol{
+    list-style-type: lower-alpha;
+}
+
+ul{
+    list-style-type: square;
+}*/
+
+body {
+    background-image: url(background.jpg);
+    font-family: Arial, sans-serif;
+    background-size: cover;
+}
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "vanilla";
+}
+
+.main-table td {
+    padding: 5px 10px;
+        font-family: "vanilla";
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-family: "vanilla";
+}
+
+ol.fruit-list {
+    border: 5px solid rgb(146, 110, 179);
+    padding: 10px 10px 10px 40px;
+    margin: 0 0 15px 0;
+    list-style-position: inside;
+        font-family: "vanilla";
+}
+
+ol.fruit-list li {
+    background-color: rgb(234, 214, 191);
+    border: 1px solid rgb(146, 110, 179);
+    margin: 4px 0;
+    padding: 3px 5px;
+}
+
+ol.fruit-list li.stroberi {
+    background-color: rgb(255, 126, 140);
+    color: black;
+    font-family: "vanilla";
+}
+
+ul.lorem-list {
+    border: 5px solid rgb(146, 110, 179);
+    padding: 10px 10px 10px 30px;
+    margin: 0 0 15px 0;
+    list-style-position: inside;
+}
+
+ul.lorem-list li {
+    background-color: rgb(168, 250, 172);
+    border: 1px solid rgb(146, 110, 179);
+    margin: 5px 0;
+    padding: 4px;
+    font-size: 15px;
+    font-family: "vanilla";
+}
+
+ul.icon-list {
+    border: 5px solid rgb(146, 110, 179);
+    padding: 10px 10px 10px 30px;
+    margin: 0;
+    list-style-type: square;
+    list-style-position: inside;
+    font-family: "vanilla";
+}
+
+ul.icon-list li {
+    background-color: rgb(221, 184, 245);
+    border: 1px solid rgb(146, 110, 179);
+    margin: 5px 0;
+    padding: 4px;
+    font-size: 15px;
+}
+
+@font-face {
+    font-family:"vanilla" ;
+    src: url(vanilla_caramel/Vanilla\ Caramel.otf);
+}
+
+li{
+    font-family: "vanilla";
+    color:rgb(47, 39, 55);
+}
+.listmakmin {
+    margin-left: 50px;
+}
+
+.main-table{
+    width: 90%;          /* Lebar tabel 90% dari layar */
+    margin-left: auto;   /* Membuat sisi kiri otomatis (ke tengah) */
+    margin-right: auto;  /* Membuat sisi kanan otomatis (ke tengah) */
+    margin-bottom: 20px; /* Jarak bawah sebelum tabel berikutnya */
+    color:rgb(146, 110, 179);
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+/* Styling umum untuk tabel */
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgb(226, 234, 243);
+    margin-bottom: 20px;
+}
+
+table.nilai {
+width: 90%;          /* Lebar tabel 90% dari layar */
+    margin-left: auto;   /* Membuat sisi kiri otomatis (ke tengah) */
+    margin-right: auto;  /* Membuat sisi kanan otomatis (ke tengah) */
+    margin-bottom: 20px; /* Jarak bawah sebelum tabel berikutnya */
+}
+
+th, td {
+    padding: 5px;
+}
+
+/* Efek baris pada tabel nilai */
+.nilai tr:nth-child(even) {
+    background-color: white;
+}
+.nilai tr:hover {
+    background-color: rgb(215, 241, 203);
+}
+
+.grid-table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: auto !important;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.grid-table td {
+    width: 75px !important;
+    height: 65px !important;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: white;
+    padding: 0px !important;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+h2{
+    font-family: "vanilla";
+    text-align: center;
+    color: black;
+}
+
+@font-face {
+    font-family:"vanilla" ;
+    src: url(vanilla_caramel/Vanilla\ Caramel.otf);
+}
+
+body{
+    background-image: url(background.jpg);
+}
+
+table, th, td{
+    border: 1px solid black;
+        font-family: "vanilla";
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(226, 234, 243);
+        font-family: "vanilla";
+}
+
+th,td{
+    padding: 5px;
+        font-family: "vanilla";
+}
+
+tr:nth-child(even){
+    background-color: white;
+        font-family: "vanilla";
+}
+tr:hover{
+    background-color: rgb(215, 241, 203);
+        font-family: "vanilla";
+}
+

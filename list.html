@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout HTML dan CSS</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>List</h1>
+        </div>
+<div class="topnav">
+    <a href="index.html">Biodata</a>
+    <a href="table.html">Table</a>
+    <a href="list.html">List</a>
+    <a href="sts.html">STS</a>
+</div>
+
+        <!--OrderList (ol) : tipe list angka dan huruf (1,A,a,i,I)
+        UnorderList (ul) : tipe list simbol (disc,circle,square)-->
+
+        <div class="listmakmin">
+        <h3>List Makanan</h3>
+        <ol type="a">
+            <li>Indomie Goreng</li>
+            <li>Indomie Bawang</li>
+            <li>Indomie Kari Ayam</li>
+        </ol>
+
+        <h3>List Minuman</h3>
+        <ul>
+            <li>Sprite</li>
+            <li>Coca-Cola</li>
+            <li>Fanta</li>
+        </ul>
+
+
+        <!--Penggabungan ol dan ul-->
+
+        <h3>List Makanan & Minuman</h3>
+        <ol type="1">
+            <li>Makanan</li>
+            <ul>
+               <li>Indomie Goreng</li>
+              <li>Indomie Bawang</li>
+              <li>Indomie Kari Ayam</li>
+            </ul>
+            <li>Minuman</li>
+            <ul>
+                <li>Sprite</li>
+                <li>Coca-Cola</li>
+                <li>Fanta</li>
+            </ul>
+        </ol>
+        </div>
+
+<table class="main-table">
+        <!-- Section 1: Daftar Buah-Buahan -->
+        <tr>
+            <td>
+                <h3>Daftar Buah-Buahan</h3>
+                <ol type="I" class="fruit-list">
+                    <li>Jambu</li>
+                    <li>Mangga</li>
+                    <li>Pisang</li>
+                    <li>Buah Naga</li>
+                    <li class="stroberi">Stroberi</li>
+                    <li>Durian</li>
+                    <li>Apel</li>
+                    <li>Pir</li>
+                    <li>Pepaya</li>
+                    <li>Jeruk</li>
+                </ol>
+            </td>
+        </tr>
+
+        <!-- Section 2: Lorem Ipsum -->
+        <tr>
+            <td>
+                <h3>Lorem ipsum</h3>
+                <ul class="lorem-list">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugiat facere non cum, ipsam incidunt nam voluptate quisquam, ratione eius ipsum. At laboriosam nobis voluptatum ea error voluptatem blanditiis porro?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugiat facere non cum, ipsam incidunt nam voluptate quisquam, ratione eius ipsum. At laboriosam nobis voluptatum ea error voluptatem blanditiis porro?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugiat facere non cum, ipsam incidunt nam voluptate quisquam, ratione eius ipsum. At laboriosam nobis voluptatum ea error voluptatem blanditiis porro?</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugiat facere non cum, ipsam incidunt nam voluptate quisquam, ratione eius ipsum. At laboriosam nobis voluptatum ea error voluptatem blanditiis porro?</li>
+                </ul>
+            </td>
+        </tr>
+
+        <!-- Section 3: Macam-Macam Icon -->
+        <tr>
+            <td>
+                <h3>Macam-Macam icon</h3>
+                <ul class="icon-list">
+                    <li><i class="fas fa-yin-yang"></i> Ini Logo Yin Yang</li>
+                    <li><i class="fas fa-syringe"></i> Ini Logo Syringe</li>
+                    <li><i class="fas fa-feather-alt"></i> Ini Logo Feather</li>
+                    <li><i class="fas fa-binoculars"></i> Ini Logo Binoculars</li>
+                    <li><i class="fas fa-hospital"></i> Ini Logo Hospital</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+        <div class="footer">
+            <p>Vianca - 93/12</p>
+        </div>
+    </body>
+</html>

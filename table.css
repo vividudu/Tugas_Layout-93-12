@@ -1,0 +1,105 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+/* Styling umum untuk tabel */
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgb(226, 234, 243);
+    margin-bottom: 20px;
+}
+
+table.nilai {
+width: 90%;          /* Lebar tabel 90% dari layar */
+    margin-left: auto;   /* Membuat sisi kiri otomatis (ke tengah) */
+    margin-right: auto;  /* Membuat sisi kanan otomatis (ke tengah) */
+    margin-bottom: 20px; /* Jarak bawah sebelum tabel berikutnya */
+}
+
+th, td {
+    padding: 5px;
+}
+
+/* Efek baris pada tabel nilai */
+.nilai tr:nth-child(even) {
+    background-color: white;
+}
+.nilai tr:hover {
+    background-color: rgb(215, 241, 203);
+}
+
+.grid-table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: auto !important;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.grid-table td {
+    width: 75px !important;
+    height: 65px !important;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: white;
+    padding: 0px !important;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+h2{
+    font-family: "vanilla";
+    text-align: center;
+    color: black;
+    text-shadow: 0 2px 4px rgba(255, 255, 255);
+}
+
+@font-face {
+    font-family:"vanilla" ;
+    src: url(vanilla_caramel/Vanilla\ Caramel.otf);
+}
+
+body{
+    background-image: url(background.jpg);
+}
+
+table, th, td{
+    border: 1px solid black;
+        font-family: "vanilla";
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(226, 234, 243);
+        font-family: "vanilla";
+}
+
+th,td{
+    padding: 5px;
+        font-family: "vanilla";
+}
+
+tr:nth-child(even){
+    background-color: white;
+        font-family: "vanilla";
+}
+tr:hover{
+    background-color: rgb(215, 241, 203);
+        font-family: "vanilla";
+}

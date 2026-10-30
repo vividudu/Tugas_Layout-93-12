@@ -1,0 +1,349 @@
+body{
+    background-image: url(vortexamphoreus.webp);
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    background-color: rgba(7, 37, 97, 0.75);
+    color: rgb(115, 194, 240);
+    text-align: center;
+    font-family: "vanilla";;
+}
+
+h1{
+    color: rgba(232, 228, 206);
+    text-align: center;
+    font-family: "vanilla";;
+}
+
+p{
+    font-family: "vanilla";;
+}
+
+h3{
+    color: rgb(115, 194, 240);
+    text-align: center;
+    font-family: "vanilla";
+    background-color:rgb(7, 37, 97, 0.75);
+    font-size: xx-large;
+}
+
+h4{
+    color: rgb(115, 194, 240);
+    text-align: center;
+    font-family: "vanilla";
+    background-color: rgba(7, 37, 97, 0.75);
+    font-size: x-large;
+
+}
+div.biodata{
+    margin:30px auto;
+    width:70%;
+    background-color: rgb(233, 209, 165);
+    color:darkslateblue;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+div.foto{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid cornflowerblue;
+
+}
+
+div.foto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+div.foto img.top{
+    opacity: 1;
+    z-index: 2;
+}
+
+div.foto:hover img.top{
+    opacity: 0;
+    transform: scale(1,1);
+}
+
+div.foto img.bottom{
+    opacity: 0;
+    z-index: 1;
+}
+
+div.foto:hover img.bottom{
+    opacity: 1;
+    transform: scale(1,1);
+}
+
+div.makanan {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+div.pancakes {
+    text-align: center;
+    width: 220px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 25px;
+    padding: 10px;
+    color: rgb(244, 228, 191);
+    font-family: "vanilla";
+}
+
+div.yogurt {
+    text-align: center;
+    width: 220px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 25px;
+    padding: 10px;
+    color: rgb(244, 228, 191);
+    font-family: "vanilla";
+}
+
+
+div.icecream {
+    text-align: center;
+    width: 220px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 25px;
+    padding: 10px;
+    color:rgb(244, 228, 191);
+    font-family: "vanilla";
+}
+
+div.pudding {
+    text-align: center;
+    width: 220px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 25px;
+    padding: 10px;
+    color: rgb(244, 228, 191);
+    font-family: "vanilla";
+}
+
+div.pancakes:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+div.yogurt:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+div.icecream:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+div.pudding:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+div.novel{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "vanilla";
+}
+
+div.debutordie{
+    text-align: center;
+    width: 220px;
+    height: 360px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 25px;
+    padding: 10px;
+    color: rgba(7, 37, 97);
+    font-family: "vanilla";
+}
+
+div.orv{
+    text-align: center;
+    width: 220px;
+    height: 360px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 25px;
+    padding: 10px;
+    color: rgba(7, 37, 97);
+    font-family: "vanilla";
+}
+
+div.trashypd{
+    text-align: center;
+    width: 220px;
+    height: 360px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 25px;
+    padding: 10px;
+    color: rgba(7, 37, 97);
+    font-family: "vanilla";
+}
+
+div.mysclass{
+    text-align: center;
+    width: 220px;
+    height: 360px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 25px;
+    padding: 10px;
+    color: rgba(7, 37, 97);
+    font-family: "vanilla";
+}
+
+div.debutordie:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+div.orv:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+div.trashypd:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+div.mysclass:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+div.songs{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+div.heavyserenade{
+    text-align: center;
+    width: 220px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 25px;
+    padding: 10px;
+    color: rgb(244, 228, 191);
+    font-family: "vanilla";
+}
+
+div.ditto{
+    text-align: center;
+    width: 220px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 25px;
+    padding: 10px;
+    color:rgb(244, 228, 191) ;
+    font-family: "vanilla";
+}
+
+div.cherish{
+    text-align: center;
+    width: 220px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 25px;
+    padding: 10px;
+    color: rgb(244, 228, 191) ;
+    font-family: "vanilla";
+}
+
+div.cresendo{
+    text-align: center;
+    width: 220px;
+    height: 260px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    margin-bottom: 35px;
+    padding: 10px;
+    color: rgb(244, 228, 191);
+    font-family: "vanilla";
+}
+
+div.heavyserenade:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+div.ditto:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+div.cherish:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+div.cresendo:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(7, 37, 97);
+    transition: transform 0.2s ease-in-out;
+}
+
+@font-face {
+    font-family:"vanilla" ;
+    src: url(vanilla_caramel/Vanilla\ Caramel.otf);
+}
